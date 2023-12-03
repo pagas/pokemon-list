@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    background-color: var(--theme-color);
+    color: white;
+    padding: 1rem;
+    height: 4rem;
+    cursor: pointer;
+    border-radius: var(--border-radius);
+}
+
+.card:hover {
+    background-color: var(--hover-color);
+}
+
+.pokemon-number {
+    color: #616161;
+    margin-left: 1rem;
+    white-space: nowrap;
+}

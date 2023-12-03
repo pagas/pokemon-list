@@ -1,0 +1,9 @@
+.pokemon-list {
+    list-style: none;
+}
+
+.cards {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}

@@ -1,0 +1,26 @@
+ * {
+     padding: 0;
+     margin: 0;
+ }
+
+ @import "./vars.css";
+ @import "./modal.css";
+ @import "./search-form.css";
+ @import "./pokemon-list.css";
+ @import "./pokemon-item.css";
+
+ .page-title {
+     text-align: center;
+     padding: 1rem 0;
+ }
+
+ .container {
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 0 1rem;
+ }
+
+ #loading-container {
+     display: none;
+     text-align: center;
+ }
